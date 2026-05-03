@@ -6,7 +6,7 @@ import numpy as np
 import sys
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv[1:]) != 2:
         print(f"Usage: {sys.argv[0]} input.npy output.npy")
         raise SystemExit("Wrong command line")
@@ -17,3 +17,7 @@ if __name__ == "__main__":
     n = np.load(input_file)
     print("{} -> 1d".format(n.shape))
     np.save(output_file, n.flatten())
+
+
+if __name__ == "__main__":
+    main()

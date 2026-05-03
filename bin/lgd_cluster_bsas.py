@@ -108,8 +108,7 @@ def write_cluster_info(clusters, gso_data, swarm_path):
         log.info(f"Cluster result written to {file_name} file")
 
 
-if __name__ == "__main__":
-
+def main():
     try:
         # Parse command line
         args = parse_command_line()
@@ -133,3 +132,7 @@ if __name__ == "__main__":
     except Exception as e:
         log.error("Clustering has failed. Please see error:")
         log.error(str(e))
+
+
+if __name__ == "__main__":
+    main()

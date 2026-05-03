@@ -37,8 +37,7 @@ from lightdock.version import CURRENT_VERSION
 log = LoggingManager.get_logger("lgd_setup")
 
 
-if __name__ == "__main__":
-
+def main():
     try:
         parser = SetupCommandLineParser()
         args = parser.args
@@ -189,3 +188,7 @@ if __name__ == "__main__":
     except LightDockError as error:
         log.error("LightDock setup failed. Please see:")
         log.error(error)
+
+
+if __name__ == "__main__":
+    main()

@@ -21,7 +21,7 @@ def parse_command_line():
     return script_args
 
 
-if __name__ == "__main__":
+def main():
     args = parse_command_line()
 
     try:
@@ -48,3 +48,7 @@ if __name__ == "__main__":
         adapter.ligand_model.coordinates[0],
     )
     print(energy)
+
+
+if __name__ == "__main__":
+    main()
