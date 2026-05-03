@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Generates the simulated trajectory of a given glowworm in a swarm"""
 
 import argparse

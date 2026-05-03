@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Generates a set of n_confs conformations of an input pdb_file PDB structure
 using the first non-trivial ANM n_modes in a given rmsd interval"""
 

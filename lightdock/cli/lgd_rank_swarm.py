@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Calculates the ranking file by scoring intra-swarm"""
 
 import os

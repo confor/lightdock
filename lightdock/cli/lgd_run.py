@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Execution controller
 
 Depending on the environment, executes a MPI or multiprocessing version.

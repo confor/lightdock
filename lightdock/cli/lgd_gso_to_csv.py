@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Translates a LightDock output file to CSV format"""
 
 import argparse

@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Calculates the reference points of the simulation"""
 
 import os

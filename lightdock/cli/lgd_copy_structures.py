@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Copy clustered structures to new folder for analysis"""
 
 import os

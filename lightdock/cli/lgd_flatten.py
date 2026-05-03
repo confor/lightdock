@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Transforms a saved ANM NumPy matrix from 3D to 1D"""
 
 import numpy as np

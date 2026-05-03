@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Before launching the LightDock simulation, a setup step is required.
 
 This step parses the input PDB structures, calculates the minimum ellipsoid

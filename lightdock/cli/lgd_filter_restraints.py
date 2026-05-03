@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Filter LightDock final swarm results depending on the percentage of restraints satisfied"""
 
 

@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """A tool for parallel execution of tasks"""
 
 import os

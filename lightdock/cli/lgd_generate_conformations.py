@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Generates the PDB structures given a LightDock swarm results file"""
 
 import argparse

@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Maps the contacts during simulation on the receptor surface"""
 
 import argparse

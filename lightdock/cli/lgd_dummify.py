@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """Converts any HETATM molecule to dummy beads"""
 
 import os
