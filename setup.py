@@ -131,7 +131,7 @@ exts = [
 ]
 
 setuptools.setup(
-    packages=setuptools.find_namespace_packages(),
+    packages=setuptools.find_namespace_packages(include=["lightdock", "lightdock.*"]),
     include_package_data=True,
     ext_modules=exts,
     zip_safe=False,
